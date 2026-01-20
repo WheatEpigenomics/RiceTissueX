@@ -1,2 +1,4 @@
 # RiceTissueX
-RiceTissueX is an explainable deep learning framework for predicting gene expression across 22 rice tissues. It integrates DNA sequence and ATAC-seq accessibility, provides DynamicMask regulatory maps, attribution heatmaps, and saturation mutagenesis for tissue-specific regulatory analysis.
+To systematically dissect the direction and magnitude of cis-regulatory sequence effects on gene transcription in rice, we integrated ATAC-seq and RNA-seq data from 22 tissues and organs of the *japonica* rice cultivar Nipponbare and developed **RiceTissueX**, a deep learning framework composed of three functionally complementary submodels. RiceTissueX jointly predicts the regulatory direction (activation or repression), effect size, and tissue specificity of candidate cis-regulatory sequences, and further supports in silico perturbation analysis of regulatory elements, providing computational guidance for precise genome editing targeting cis-regulatory elements.
+
+<img width="808" height="405" alt="4de04159a422fa765627089133873f39" src="https://github.com/user-attachments/assets/3202e8c7-d9ba-42a8-bc44-9e5cf2a7d9c7" />
