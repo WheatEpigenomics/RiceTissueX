@@ -3,3 +3,8 @@ To systematically dissect the direction and magnitude of cis-regulatory sequence
 
 <img width="1879" height="933" alt="image" src="https://github.com/user-attachments/assets/c27cf889-ef20-4ae4-96a4-8f93c3a1efb2" />
 
+# Intall
+wget  https://zenodo.org/records/18404239/files/RiceTissueX_final.tar.gz?download=1
+tar -czvf RiceTissueX_final.tar.gz upload_data/
+conda env create -f environment.yml
+conda activate tensorflow2.14
