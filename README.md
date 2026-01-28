@@ -5,6 +5,9 @@ To systematically dissect the direction and magnitude of cis-regulatory sequence
 
 # Intall
 wget  https://zenodo.org/records/18404239/files/RiceTissueX_final.tar.gz?download=1
+
 tar -czvf RiceTissueX_final.tar.gz upload_data/
+
 conda env create -f environment.yml
+
 conda activate tensorflow2.14
