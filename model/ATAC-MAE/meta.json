@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-11-22T15:36:55.238405",
+  "n_peaks": 131842,
+  "n_tissues": 22,
+  "latent_dim": 256,
+  "width": 256,
+  "depth": 3,
+  "mask_rate": 0.25,
+  "dropout": 0.05,
+  "best_val_loss": 0.15613706409931183,
+  "best_val_masked_PearsonR": 0.8581695556640625,
+  "test_loss": 0.16096726059913635,
+  "test_masked_PearsonR": 0.851565420627594
+}
